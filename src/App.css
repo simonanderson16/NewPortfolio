@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --hover-purple: #818cf8;
+    --dark-purple: #433c53;
+    --bg-purple: #8067ba;
+    --blue: #5b6e80;
+    --blue-green: #6a8d92;
+    --green: #80b192;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    /* background-color: var(--dark-purple); */
+    /* color: white; */
+    /* scroll-behavior: smooth;
+    transition: ease-in-out 0.2s; */
+}
+
+.section-container {
+    min-height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

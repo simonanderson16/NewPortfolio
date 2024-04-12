@@ -1,0 +1,61 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    white-space: nowrap;
+}
+
+.navbar-logo:hover {
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    /* transform: translate(0, -2px); */
+    /* text-shadow: 2px 2px 2px white; */
+    /* font-weight: bold; */
+    /* transition: ease-in-out 0.2s; */
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.icon:hover {
+    /* transform: translate(0, -2px);
+    transition: ease-in-out 0.2s; */
+    cursor: pointer;
+}
+
+.github-button:hover {
+    color: #bf7fe4;
+}
+
+.linkedin-button:hover {
+    color: #69d6fe;
+}
+
+.email-button:hover {
+    color: #4acc66;
+}
+
+.resume-button:hover {
+    color: rgb(246, 110, 110);
+}
+
+.navbar-menu-icon {
+    margin-right: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
