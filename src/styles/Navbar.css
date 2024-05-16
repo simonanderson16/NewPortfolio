@@ -39,19 +39,19 @@
 }
 
 .github-button:hover {
-    color: #bf7fe4;
+    color: #8f3bbf;
 }
 
 .linkedin-button:hover {
-    color: #69d6fe;
+    color: #0077b5;
 }
 
 .email-button:hover {
-    color: #4acc66;
+    color: #2b9e44;
 }
 
 .resume-button:hover {
-    color: rgb(246, 110, 110);
+    color: rgb(212, 88, 88);
 }
 
 .navbar-menu-icon {

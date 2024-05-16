@@ -1,0 +1,52 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.experience-header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.experience-accordion {
+    width: 80%;
+
+    ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    li {
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+
+    li:before {
+        content: "◇";
+        padding-right: 5px;
+    }
+}
+
+.tags {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    margin-right: 0.5rem;
+}
+
+.experience-avatar {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-accordion {
+        width: 90%;
+    }
+}

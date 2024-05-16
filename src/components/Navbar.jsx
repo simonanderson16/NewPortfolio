@@ -3,6 +3,7 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navba
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import { BsFileEarmarkPersonFill } from "react-icons/bs";
 import logo from "../assets/SALogo.ico";
 import "../styles/Navbar.css";
 
@@ -23,7 +24,7 @@ export default function App() {
         <Navbar
             onMenuOpenChange={setIsMenuOpen}
             className="navbar"
-            style={{ backgroundColor: "rgba(255, 255, 255, 0.5)", display: "flex", justifyContent: "between", position: "fixed", top: "0" }}
+            style={{ backgroundColor: "rgba(255, 255, 255, 0.7)", display: "flex", justifyContent: "between", position: "fixed", top: "0" }}
         >
             <NavbarContent>
                 <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="md:hidden text-black" />
@@ -59,7 +60,7 @@ export default function App() {
                         <FontAwesomeIcon icon={faEnvelope} className="mr-4 icon email-button" />
                     </a>
                     <a href="https://drive.google.com/file/d/1R5gTjsDa1EnyuCxDBRv3Jh3ZYqKCcySk/view?usp=sharing" target="_blank">
-                        <FontAwesomeIcon icon={faFile} className="icon resume-button" />
+                        <BsFileEarmarkPersonFill className="icon resume-button" />
                     </a>
                 </NavbarItem>
             </NavbarContent>
@@ -78,7 +79,7 @@ export default function App() {
                 <hr className="w-full my-2 border-t border-gray-300" />
                 <NavbarMenuItem>
                     <Link
-                        className="w-full hover:cursor-pointer text-black hover:text-cyan-300"
+                        className="w-full hover:cursor-pointer text-black linkedin-button"
                         href="https://www.linkedin.com/in/simonanderson16/"
                         target="_blank"
                     >
@@ -86,22 +87,22 @@ export default function App() {
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link className="w-full hover:cursor-pointer text-black hover:text-fuchsia-400" href="https://github.com/simonanderson16" target="_blank">
+                    <Link className="w-full hover:cursor-pointer text-black github-button" href="https://github.com/simonanderson16" target="_blank">
                         <FontAwesomeIcon icon={faGithub} className="navbar-menu-icon" /> GitHub
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link className="w-full hover:cursor-pointer text-black hover:text-green-400" href="mailto:uhx8bu@virginia.edu">
+                    <Link className="w-full hover:cursor-pointer text-black email-button" href="mailto:uhx8bu@virginia.edu">
                         <FontAwesomeIcon icon={faEnvelope} className="navbar-menu-icon" /> Email
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
                     <Link
-                        className="w-full hover:cursor-pointer text-black hover:text-red-400"
+                        className="w-full hover:cursor-pointer text-black resume-button"
                         href="https://drive.google.com/file/d/1R5gTjsDa1EnyuCxDBRv3Jh3ZYqKCcySk/view?usp=sharing"
                         target="_blank"
                     >
-                        <FontAwesomeIcon icon={faFile} className="navbar-menu-icon" /> Resume
+                        <BsFileEarmarkPersonFill className="navbar-menu-icon" /> Resume
                     </Link>
                 </NavbarMenuItem>
             </NavbarMenu>
