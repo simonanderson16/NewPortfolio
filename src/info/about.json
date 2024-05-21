@@ -1,0 +1,69 @@
+{
+    "about": {
+        "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor lacus quis sagittis faucibus. Pellentesque finibus lacus libero, eu facilisis neque sagittis non. Nulla ornare sodales egestas. Donec posuere risus sed molestie luctus. Nam commodo condimentum nisi, non elementum odio elementum sollicitudin",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor lacus quis sagittis faucibus. Pellentesque finibus lacus libero, eu facilisis neque sagittis non. Nulla ornare sodales egestas. Donec posuere risus sed molestie luctus. Nam commodo condimentum nisi, non elementum odio elementum sollicitudin",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor lacus quis sagittis faucibus. Pellentesque finibus lacus libero, eu facilisis neque sagittis non. Nulla ornare sodales egestas. Donec posuere risus sed molestie luctus. Nam commodo condimentum nisi, non elementum odio elementum sollicitudin"
+        ],
+        "images": [
+            { "file": "thetatau.png", "caption": "Theta Tau" },
+            { "file": "iceland.jpg", "caption": "Iceland" },
+            { "file": "barcelona.png", "caption": "Barcelona" },
+            { "file": "richmond.png", "caption": "Riochmond" }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Java",
+            "url": "https://glw-website-strapi-content.s3.amazonaws.com/Java_9_Modules_b0a7f094ab.gif"
+        },
+        {
+            "name": "JavaScript",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+            "name": "ReactJS",
+            "url": "https://cdn.freebiesupply.com/logos/thumbs/2x/react-1-logo.png"
+        },
+        {
+            "name": "HTML",
+            "url": "https://cdn.dribbble.com/users/66221/screenshots/1655593/media/63d9b0acd7e81cde54f291bdcf8a24df.png?resize=400x300&vertical=center"
+        },
+        {
+            "name": "CSS",
+            "url": "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png?resize=800x600&vertical=center"
+        },
+        {
+            "name": "Python",
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj07sG1daECtzoh5GovzhXuUeHZGaALlsSvTVUobQhXFE_bTeJubKrSR2NbIiOBj5WUMJlz0RRKrqw_dNyBYxFfEbQj-IbjkVVRF1S7TuqemiY3VnoYV-EtrMrhamCBH8QbH6cutnEAz8mAxg3WEqtunruLRpT8fnAEmXYcGHRRtcyy3Wb1veAPZsV/s728-rw-e30/python.png"
+        },
+        {
+            "name": "Git",
+            "url": "https://img-c.udemycdn.com/course/750x422/4966342_2dc0_16.jpg"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+        },
+        {
+            "name": "Firebase",
+            "url": "https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png"
+        },
+        {
+            "name": "Django",
+            "url": "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/django/products/220963/original-1582297809-33f3e434bab7633744d99012eec6986d.jpg?v=3&d=eyJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiMGM0YjMzIn1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV0sICJmb3JjZSI6IGZhbHNlLCAib25seV9tZXRhIjogZmFsc2V9"
+        },
+        {
+            "name": "TypeScript",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png"
+        },
+        {
+            "name": "C",
+            "url": "https://miro.medium.com/v2/resize:fit:596/0*_MTYPTNTVd6QfEiZ.jpg"
+        },
+        {
+            "name": "Ruby",
+            "url": "https://digitalhumanity.co.za/wp-content/uploads/Ruby-image.png"
+        }
+    ]
+}

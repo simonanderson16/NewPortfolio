@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import data from "../experience.json";
+import data from "../info/experience.json";
 import "../styles/Experience.css";
 import { Accordion, AccordionItem, Avatar, Chip } from "@nextui-org/react";
 
@@ -10,6 +10,9 @@ const Experience = () => {
     return (
         <div id="experience" className="section-container experience-container">
             <h1 className="experience-header">Experience</h1>
+            <Chip variant="flat">
+                Click on each experience to learn more about my role
+            </Chip>
             <div className="experience-accordion">
                 <Accordion>
                     {experience.map((exp, index) => (
@@ -27,7 +30,6 @@ const Experience = () => {
                                 </>
                             }
                         >
-                            <h2>{exp.title}</h2>
                             <ul>
                                 {exp.bullets.map((bullet, index) => (
                                     <li key={index}>{bullet}</li>

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Intro from "./Intro";
-import Skills from "./Skills";
+import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -12,7 +12,7 @@ const Portfolio = () => {
             <Navbar />
             <div className="portfolio-container mx-auto">
                 <Intro />
-                <Skills />
+                <About />
                 <Experience />
                 <Projects />
                 <Contact />

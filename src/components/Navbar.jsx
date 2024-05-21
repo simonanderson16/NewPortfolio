@@ -10,7 +10,7 @@ import "../styles/Navbar.css";
 export default function App() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-    const menuItems = ["Skills", "Experience", "Projects", "Contact"];
+    const menuItems = ["About", "Experience", "Projects", "Contact"];
 
     const scrollToSection = (id, event) => {
         event.preventDefault();
@@ -35,8 +35,8 @@ export default function App() {
             </NavbarContent>
 
             <NavbarContent className="hidden md:flex gap-4" justify="center">
-                <a href="#skills" className="nav-link hover:text-indigo-400" onClick={(e) => scrollToSection("skills", e)}>
-                    Skills
+                <a href="#about" className="nav-link hover:text-indigo-400" onClick={(e) => scrollToSection("about", e)}>
+                    About
                 </a>
                 <a href="#experience" className="nav-link hover:text-indigo-400" onClick={(e) => scrollToSection("experience", e)}>
                     Experience

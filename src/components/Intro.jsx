@@ -8,18 +8,18 @@ const Intro = () => {
     return (
         <div id="intro" className="section-container intro-container ">
             <div className="intro-content">
-            <div className="magicpattern">
-                <div className="image-container">
-                    <img src={headshot} alt="Headshot" className="headshot" />
+                <div className="magicpattern">
+                    <div className="image-container">
+                        <img src={headshot} alt="Headshot" className="headshot" />
+                    </div>
                 </div>
-            </div>
-            <div className="intro-text">
-                <h1 className="intro-header">Hi, I'm Simon!</h1>
-                <p>I'm a CS Student at UVA passionate about full-stack development, learning new skills, and helping others through my work.</p>
-                <p>
-                    Currently, I'm a Software Engineering Intern at <strong>IT Concepts</strong>.
-                </p>
-            </div>
+                <div className="intro-text">
+                    <h1 className="intro-header">Hi, I'm Simon!</h1>
+                    <p>I'm a CS Student at UVA passionate about full-stack development, learning new skills, and helping others through my work.</p>
+                    <p>
+                        Currently, I'm a Software Engineering Intern at <strong>IT Concepts</strong>.
+                    </p>
+                </div>
             </div>
             <div className="custom-shape-divider-bottom-1712879735">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
