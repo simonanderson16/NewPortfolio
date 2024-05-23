@@ -11,7 +11,7 @@ const Experience = () => {
         <div id="experience" className="section-container experience-container">
             <h1 className="experience-header">Experience</h1>
             <Chip variant="flat">
-                Click on each experience to learn more about my role
+                Click on each experience to learn more
             </Chip>
             <div className="experience-accordion">
                 <Accordion>

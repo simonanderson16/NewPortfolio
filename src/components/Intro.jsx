@@ -6,7 +6,7 @@ import "../styles/Intro.css";
 
 const Intro = () => {
     return (
-        <div id="intro" className="section-container intro-container ">
+        <div id="intro" className="section-container intro-container">
             <div className="intro-content">
                 <div className="magicpattern">
                     <div className="image-container">

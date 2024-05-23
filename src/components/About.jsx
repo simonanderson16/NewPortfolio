@@ -38,21 +38,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Carousel
-                showThumbs={false}
-                showArrows
-                showStatus={false}
-                centerMode
-                centerSlidePercentage={40}
-                infiniteLoop
-                autoPlay={true}
-                interval={3000}
-                width={carouselWidth}
-            >
-                {info.about.images.map((image, index) => (
-                    <img key={index} className="carousel-image" src={`../../public/images/${image.file}`} />
-                ))}
-            </Carousel>
         </div>
     );
 };

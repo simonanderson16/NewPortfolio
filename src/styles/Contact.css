@@ -1,0 +1,126 @@
+.contact-container {
+    position: relative;
+}
+
+.contact-header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.contact-subheader {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    gap: 2rem;
+    width: 85%;
+    position: relative;
+}
+
+.contact-container::before,
+.contact-container::after {
+    content: "";
+    position: absolute;
+    width: 35%; /* Adjust the size of the borders as needed */
+    height: 50%;
+    border: 1px solid #ccaeec; /* Adjust the border color and width as needed */
+    border-radius: 0px 10px;
+}
+
+.contact-container::before {
+    top: 10%;
+    right: 5%;
+    border-width: 1px 1px 0 0; /* Top and left borders */
+}
+
+.contact-container::after {
+    bottom: 10%;
+    left: 5%;
+    border-width: 0 0 1px 1px; /* Bottom and right borders */
+}
+
+.contact-info,
+.contact-form-container {
+    width: 50%;
+    padding: 1rem;
+    /* border: 1px dashed red; */
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    background-color: #f4f4f5;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.link-card:hover {
+    background-color: #e4e4e7;
+    transition: ease-in-out 0.2s;
+}
+
+.link-card-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-row {
+    display: flex;
+    width: 100%;
+}
+
+.form-button-row {
+    height: 100px;
+}
+
+.form-input,
+.submit-button,
+.loading-cirlce {
+    margin: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .contact-info{
+        width: 100%;
+    }
+
+    .contact-form-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact-container::before,
+    .contact-container::after {
+        display: none;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        padding-right: 4%;
+    }
+
+}

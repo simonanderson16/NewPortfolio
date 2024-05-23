@@ -4,6 +4,29 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+}
+
+.about-container::before,
+.about-container::after {
+    content: "";
+    position: absolute;
+    width: 35%; /* Adjust the size of the borders as needed */
+    height: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Adjust the border color and width as needed */
+    border-radius: 10px 0;
+}
+
+.about-container::before {
+    top: 10%;
+    left: 5%;
+    border-width: 1px 0 0 1px; /* Top and left borders */
+}
+
+.about-container::after {
+    bottom: 10%;
+    right: 5%;
+    border-width: 0 1px 1px 0; /* Bottom and right borders */
 }
 
 .about-header {
@@ -116,5 +139,9 @@
 
     .skills-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .about-container::before,
+    .about-container::after {
+        display: none;
     }
 }

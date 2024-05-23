@@ -1,3 +1,4 @@
+
 .experience-container {
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@
 
 .tag {
     margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .experience-avatar {

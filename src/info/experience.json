@@ -12,7 +12,6 @@
                 "Elicited requirements from company partner in order to develop a relevant curriculum, culminating in all 4 student teams delivering applications meeting customer needs"
             ],
             "tags": ["JavaScript", "ReactJS", "APIs", "Full-Stack", "Firebase", "HTML", "CSS"]
-        
         },
         {
             "company": "UVA Department of Computer Science",
@@ -23,7 +22,8 @@
             "bullets": [
                 "Expand on in-class instruction of Software Development Essentials, teaching test-driven development, software design patterns, and 3-tier architecture to 400+ students",
                 "Conduct weekly interactive office hours and provide 1-on-1 help on online discussion forums, fostering completion of complex homework assignments in Java and increased comfort with Git and GitHub"
-            ]
+            ],
+            "tags": ["Java", "Git", "GitHub", "JUnit", "Mockito", "Software Pattenrs", "Teaching"]
         },
         {
             "company": "CommonLit",
@@ -35,7 +35,8 @@
                 "Developed automated accessibility testing program, ensuring WCAG accessibility compliance on 100% of website pages",
                 "Pioneered implementation of GitHub workflows for preview application environments of 20+ daily pull requests, resulting in boosted efficiency of changes to environment configurations through Doppler",
                 "Optimized process of uploading website assets by creating a streamlined asset upload system to AWS, simplified through an intuitive user interface"
-            ]
+            ],
+            "tags": ["ReactJS", "JavaScript", "Ruby", "CSS", "Tailwind", "Git", "GitHub", "AWS S3"]
         },
         {
             "company": "Project Code @ UVA",
@@ -46,7 +47,8 @@
             "bullets": [
                 "Organize 4+ software projects per semester, making project-based learning more accessible to 100+ students",
                 "Facilitate progress in projects by holding weekly meetings and check-ins with project managers, offering assistance and guidance whenever necessary"
-            ]
+            ],
+            "tags": ["JavaScript", "HTML", "CSS", "SwiftUI", "Git", "GitHub", "Project Management"]
         },
         {
             "company": "Forge Launch",
@@ -57,7 +59,8 @@
             "bullets": [
                 "Designed and implemented 3 week-long full-stack software projects in teams of 3-5 developers, collaborating to deliver high-quality applications within tight deadlines",
                 " Invested 150+ hours in in-depth training and hands-on practice with various full-stack development technologies, resulting in 100% project completion and fostering a comprehensive technical skillset"
-            ]
+            ],
+            "tags": ["JavaScript", "ReactJS", "APIs", "Full-Stack", "Firebase", "HTML", "CSS", "TypeScript", "Git", "GitHub"]
         }
     ]
 }

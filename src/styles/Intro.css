@@ -1,8 +1,6 @@
 .intro-container {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* align-items: center; */
     overflow-x: hidden;
 }
 
@@ -72,10 +70,19 @@
 }
 
 @media screen and (max-width: 768px) {
+    .intro-container {
+        margin-bottom: -1px;
+        margin-top: 1rem;
+    }
+
     .intro-content {
         flex-direction: column;
         text-align: center;
         margin-top: -5rem;
+    }
+
+    .intro-header {
+        font-size: 2.5rem;
     }
 
     .image-container {

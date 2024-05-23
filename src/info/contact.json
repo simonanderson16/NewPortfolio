@@ -1,0 +1,24 @@
+{
+    "socials": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/simonanderson16/",
+            "icon": "https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-square1-512.png"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/simonanderson16",
+            "icon": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+        },
+        {
+            "name": "Email",
+            "url": "mailto:uhx8bu@virginia.edu",
+            "icon": "https://static.vecteezy.com/system/resources/previews/022/484/516/original/google-mail-gmail-icon-logo-symbol-free-png.png"
+        },
+        {
+            "name": "Resume",
+            "url": "https://drive.google.com/file/d/1R5gTjsDa1EnyuCxDBRv3Jh3ZYqKCcySk/view?usp=sharing",
+            "icon": "https://www.creativefabrica.com/wp-content/uploads/2021/06/13/CV-or-Resume-Icon-Graphics-13336606-1-1-580x376.jpg"
+        }
+    ]
+}
