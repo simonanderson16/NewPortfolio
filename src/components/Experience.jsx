@@ -19,7 +19,7 @@ const Experience = () => {
                         <AccordionItem
                             key={index}
                             aria-label={exp.company}
-                            startContent={<Avatar isBordered color="secondary" radius="full" src={exp.logo} style={{ width: "6rem", height: "6rem" }} />}
+                            startContent={<Avatar isBordered color="secondary" radius="" src={exp.logo} style={{ width: "4rem", height: "4rem" }} />}
                             subtitle={exp.dates}
                             title={
                                 <>

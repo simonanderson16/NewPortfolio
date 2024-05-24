@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button, ButtonGroup } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -17,11 +17,19 @@ export default function App() {
         const element = document.getElementById(id);
         const navbarHeight = document.querySelector(".navbar").offsetHeight;
         const offsetTop = element.offsetTop - navbarHeight;
-        window.scrollTo({ top: offsetTop, behavior: "smooth" });
+        setIsMenuOpen(false);
+        setTimeout(() => {
+            window.scrollTo({ top: offsetTop, behavior: "smooth" });
+        }, 100);
     };
+
+    useEffect(() => {
+        console.log(isMenuOpen);
+    }, [isMenuOpen]);
 
     return (
         <Navbar
+            isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
             className="navbar"
             style={{ backgroundColor: "rgba(255, 255, 255, 0.7)", display: "flex", justifyContent: "between", position: "fixed", top: "0" }}

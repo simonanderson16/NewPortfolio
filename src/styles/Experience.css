@@ -1,9 +1,9 @@
-
 .experience-container {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding-top: 5rem;
 }
 
 .experience-header {
@@ -48,6 +48,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .experience-container {
+        padding-top: 1rem;
+    }
+
     .experience-accordion {
         width: 90%;
     }

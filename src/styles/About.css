@@ -14,7 +14,7 @@
     width: 35%; /* Adjust the size of the borders as needed */
     height: 50%;
     border: 1px solid rgba(255, 255, 255, 0.3); /* Adjust the border color and width as needed */
-    border-radius: 10px 0;
+    border-radius: 20px 0;
 }
 
 .about-container::before {
@@ -41,19 +41,6 @@
     gap: 2rem;
     width: 85%;
     margin-bottom: 1rem;
-}
-
-.about-content::before {
-    content: "";
-    display: block;
-    width: 1px;
-    background-color: rgba(255, 255, 255, 0.3);
-    height: 46%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    transform: translateY(10%);
-    z-index: 1;
 }
 
 .more-about-me,
@@ -133,13 +120,10 @@
         width: 100%;
     }
 
-    .about-content::before {
-        display: none;
-    }
-
     .skills-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
+
     .about-container::before,
     .about-container::after {
         display: none;
