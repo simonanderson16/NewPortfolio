@@ -17,15 +17,15 @@ export default function App() {
         const element = document.getElementById(id);
         const navbarHeight = document.querySelector(".navbar").offsetHeight;
         const offsetTop = element.offsetTop - navbarHeight;
-        setIsMenuOpen(false);
-        setTimeout(() => {
+        if (isMenuOpen) {
+            setIsMenuOpen(false);
+            setTimeout(() => {
+                window.scrollTo({ top: offsetTop, behavior: "smooth" });
+            }, 100);
+        } else {
             window.scrollTo({ top: offsetTop, behavior: "smooth" });
-        }, 100);
+        }
     };
-
-    useEffect(() => {
-        console.log(isMenuOpen);
-    }, [isMenuOpen]);
 
     return (
         <Navbar

@@ -4,6 +4,7 @@
     justify-content: start;
     align-items: center;
     padding-top: 5rem;
+    position: relative;
 }
 
 .experience-header {

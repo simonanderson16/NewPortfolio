@@ -1,0 +1,116 @@
+{
+    "projects": [
+        {
+            "title": "Wisdom Widget",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                },
+                {
+                    "name": "Devpost",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "Sorting Visualizer",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                },
+                {
+                    "name": "Deployed",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "Weather & News App",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                },
+                {
+                    "name": "Deployed",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "Spotify Social",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "Hoos Safe",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                },
+                {
+                    "name": "Deployed",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "Forge Commerce",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                },
+                {
+                    "name": "Deployed",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "Dice Art Generator",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "title": "This Site!",
+            "description": "",
+            "image": "",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": ""
+                },
+                {
+                    "name": "Deployed",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}
