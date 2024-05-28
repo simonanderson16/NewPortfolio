@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "Wisdom Widget",
-            "description": "Wisdom Widget is a study companion Chrome extension coupled with a dashboard that uses AI to enhance note-taking and research. It allows you to highlight text on any website to save annotations, get explanations, and identify keywords with additional resources, all synchronized to your dashboard for efficient study management.",
+            "description": "A study companion Chrome extension coupled with a dashboard that uses AI to enhance note-taking and research. It allows you to highlight text on any website to save annotations, get explanations, and identify keywords with additional resources, all synchronized to your dashboard for efficient study management.",
             "image": "https://i.ibb.co/SNnhYP6/wisdom.png",
             "links": [
                 {
