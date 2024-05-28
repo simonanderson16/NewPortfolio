@@ -11,6 +11,11 @@ const Contact = () => {
     const emailRef = useRef();
     const nameRef = useRef();
     const messageRef = useRef();
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
     const [loading, setLoading] = useState(false);
 
     useEffect(() => emailjs.init(import.meta.env.VITE_MAIL_PUBLIC_KEY), []);
@@ -21,11 +26,22 @@ const Contact = () => {
         const templateId = import.meta.env.VITE_MAIL_TEMPLATE_ID;
         try {
             setLoading(true);
+            // await emailjs.send(serviceId, templateId, {
+            //     from_name: nameRef.current.value,
+            //     reply_to: emailRef.current.value,
+            //     message: messageRef.current.value,
+            // });
+            // nameRef.current.value = "";
+            // emailRef.current.value = "";
+            // messageRef.current.value = "";
             await emailjs.send(serviceId, templateId, {
-                from_name: nameRef.current.value,
-                reply_to: emailRef.current.value,
-                message: messageRef.current.value,
+                from_name: name,
+                reply_to: email,
+                message: message,
             });
+            setName("");
+            setEmail("");
+            setMessage("");
         } catch (error) {
             console.log(error);
         } finally {
@@ -55,11 +71,11 @@ const Contact = () => {
                     <h2 className="contact-subheader">Contact Me Directly!</h2>
                     <form onSubmit={handleSubmit} className="contact-form">
                         <div className="form-row">
-                            <Input type="text" label="Your Name" isRequired ref={nameRef} className="form-input" />
-                            <Input type="email" label="Your Email" isRequired ref={emailRef} className="form-input" />
+                            <Input type="text" label="Your Name" value={name} onChange={(e) => setName(e.target.value)} className="form-input" />
+                            <Input type="email" label="Your Email" value={email} onChange={(e) => setEmail(e.target.value)} className="form-input" />
                         </div>
                         <div className="form-row">
-                            <Textarea label="Message" isRequired ref={messageRef} className="form-input" />
+                            <Textarea label="Message" value={message} onChange={(e) => setMessage(e.target.value)} className="form-input" />
                         </div>
                         <div className="form-button-row">
                             {loading ? (
