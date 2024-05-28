@@ -1,9 +1,9 @@
 {
     "about": {
         "paragraphs": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor lacus quis sagittis faucibus. Pellentesque finibus lacus libero, eu facilisis neque sagittis non. Nulla ornare sodales egestas. Donec posuere risus sed molestie luctus. Nam commodo condimentum nisi, non elementum odio elementum sollicitudin",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor lacus quis sagittis faucibus. Pellentesque finibus lacus libero, eu facilisis neque sagittis non. Nulla ornare sodales egestas. Donec posuere risus sed molestie luctus. Nam commodo condimentum nisi, non elementum odio elementum sollicitudin",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor lacus quis sagittis faucibus. Pellentesque finibus lacus libero, eu facilisis neque sagittis non. Nulla ornare sodales egestas. Donec posuere risus sed molestie luctus. Nam commodo condimentum nisi, non elementum odio elementum sollicitudin"
+            "I was originally drawn towards the field of CS due to my methodical problem-solving skills and a passion for assisting others, and as a rising 4th-year Computer Science student at UVA, I can say with confidence that I made the right choice. It's this blend of analytical thinking and wanting to benefit others that propel my journey in the realm of tech.",
+            "My dedication to helping others has led me to diverse teaching roles, from tutoring calculus students to being a Teaching Assistant for multiple CS courses at UVA. Beyond the university, I've ventured into instructing software engineering courses, teaching students the fundamentals of full-stack development, API usage, AI integration, database fundamentals, and more.",
+            "Beyond coding, I have a variety of other hobbies. Recently, I've been into racquetball and disc golf, but I'm always up for learning a new niche sport. Additionally, I find joy in watching soccer matches, going for runs to clear my mind, and hitting the gym to lift weights, finding fulfillment in both physical and mental pursuits."
         ],
         "images": [
             { "file": "thetatau.png", "caption": "Theta Tau" },
