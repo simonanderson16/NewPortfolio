@@ -2,112 +2,112 @@
     "projects": [
         {
             "title": "Wisdom Widget",
-            "description": "",
-            "image": "",
+            "description": "Wisdom Widget is a study companion Chrome extension coupled with a dashboard that uses AI to enhance note-taking and research. It allows you to highlight text on any website to save annotations, get explanations, and identify keywords with additional resources, all synchronized to your dashboard for efficient study management.",
+            "image": "https://i.ibb.co/SNnhYP6/wisdom.png",
             "links": [
                 {
-                    "name": "GitHub",
-                    "url": ""
+                    "name": "Devpost",
+                    "url": "https://devpost.com/software/wisdom-widget"
                 },
                 {
-                    "name": "Devpost",
-                    "url": ""
+                    "name": "GitHub",
+                    "url": "https://github.com/grantsweeney02/WisdomWidget"
                 }
             ]
         },
         {
             "title": "Sorting Visualizer",
-            "description": "",
-            "image": "",
+            "description": "A simple React app that visualizes various sorting algorithms commonly taught in Data Structures and Algorithms courses. The user can select the algorithm, speed, and size of the array to be sorted. ",
+            "image": "https://i.ibb.co/nQNXqv0/sorting.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": ""
+                    "url": "https://github.com/simonanderson16/SortingVisualizer"
                 },
                 {
-                    "name": "Deployed",
-                    "url": ""
+                    "name": "Visit",
+                    "url": "https://simonanderson16.github.io/SortingVisualizer/"
                 }
             ]
         },
         {
             "title": "Weather & News App",
-            "description": "",
-            "image": "",
+            "description": "The only tool you need to get your updates at the start of the day. Enter a location and get the current weather and forecasts leveraging OpenWeather's API. Also view the top news stories for the day using the NYT API.",
+            "image": "https://i.ibb.co/mXGYtDX/weather.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": ""
+                    "url": "https://github.com/simonanderson16/WeatherNewsApp"
                 },
                 {
-                    "name": "Deployed",
-                    "url": ""
+                    "name": "Visit",
+                    "url": "https://simonanderson16.github.io/WeatherNewsApp/"
                 }
             ]
         },
         {
             "title": "Spotify Social",
-            "description": "",
-            "image": "",
+            "description": "Spotify Social is a full-stack application enhancing the music experience. Leveraging the Spotify API, users can explore their own and others' top songs and artists, engage in music forums, and message others, fostering an interactive community around shared musical interests.",
+            "image": "https://i.ibb.co/RzQQnN0/spotify.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": ""
+                    "url": "https://github.com/simonanderson16/SpotifyApp"
                 }
             ]
         },
         {
             "title": "Hoos Safe",
-            "description": "",
-            "image": "",
+            "description": "Built using Django, this app allows UVA students to report health and safety concerns on and around Grounds. Report anonymously or after logging in with Google, and view notes or status updates as admin users review your reports. Integrated with AWS S3 for secure and scalable file storage.",
+            "image": "https://i.ibb.co/tBhqBJW/hoossafe.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": ""
+                    "url": "https://github.com/simonanderson16/HoosSafe"
                 },
                 {
-                    "name": "Deployed",
-                    "url": ""
+                    "name": "Visit",
+                    "url": "https://project-b12-e32a0acebddd.herokuapp.com/"
                 }
             ]
         },
         {
             "title": "Forge Commerce",
-            "description": "",
-            "image": "",
+            "description": "Forge Commerce is a full-stack marketplace application that allows users to list and browse items for sale. It ensures user privacy by using alias emails for communication between buyers and sellers, providing a secure and user-friendly environment for item listing and discovery.",
+            "image": "https://i.ibb.co/nwH8Mnr/commerce.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": ""
+                    "url": "https://github.com/ChefSteveP/Forge-Commerce"
                 },
                 {
-                    "name": "Deployed",
-                    "url": ""
+                    "name": "Visit",
+                    "url": "https://forge-commerce.netlify.app/login"
                 }
             ]
         },
         {
             "title": "Dice Art Generator",
-            "description": "",
-            "image": "",
+            "description": "A command-line Python program that transforms images into dice mosaics, replicating the original picture using dice patterns.",
+            "image": "https://i.ibb.co/1f8fCnb/dice2.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": ""
+                    "url": "https://github.com/simonanderson16/DiceArt"
                 }
             ]
         },
         {
             "title": "This Site!",
-            "description": "",
-            "image": "",
+            "description": "A central hub to explore my passions, experience, skills in web development and creative coding, and more.",
+            "image": "https://i.ibb.co/3zy2pT9/portfolio2.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": ""
+                    "url": "https://github.com/simonanderson16/NewPortfolio"
                 },
                 {
-                    "name": "Deployed",
+                    "name": "Visit",
                     "url": ""
                 }
             ]
