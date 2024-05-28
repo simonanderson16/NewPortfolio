@@ -59,11 +59,11 @@ const Contact = () => {
                     <h2 className="contact-subheader">Contact Me Directly!</h2>
                     <form onSubmit={handleSubmit} className="contact-form">
                         <div className="form-row">
-                            <Input type="text" label="Your Name" value={name} onChange={(e) => setName(e.target.value)} className="form-input" />
-                            <Input type="email" label="Your Email" value={email} onChange={(e) => setEmail(e.target.value)} className="form-input" />
+                            <Input type="text" label="Your Name" value={name} onChange={(e) => setName(e.target.value)} isRequired className="form-input" />
+                            <Input type="email" label="Your Email" value={email} onChange={(e) => setEmail(e.target.value)} isRequired className="form-input" />
                         </div>
                         <div className="form-row">
-                            <Textarea label="Message" value={message} onChange={(e) => setMessage(e.target.value)} className="form-input" />
+                            <Textarea label="Message" value={message} onChange={(e) => setMessage(e.target.value)} isRequired className="form-input" />
                         </div>
                         <div className="form-button-row">
                             {loading ? (
