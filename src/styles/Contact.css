@@ -115,7 +115,9 @@
     }
 
     .contact-container::before,
-    .contact-container::after {
+    .contact-container::after,
+    .contact-header::before,
+    .contact-header::after{
         display: none;
     }
 
