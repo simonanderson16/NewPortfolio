@@ -8,10 +8,6 @@ import data from "../info/contact.json";
 import { IoOpenOutline } from "react-icons/io5";
 
 const Contact = () => {
-    const emailRef = useRef();
-    const nameRef = useRef();
-    const messageRef = useRef();
-
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -26,14 +22,6 @@ const Contact = () => {
         const templateId = import.meta.env.VITE_MAIL_TEMPLATE_ID;
         try {
             setLoading(true);
-            // await emailjs.send(serviceId, templateId, {
-            //     from_name: nameRef.current.value,
-            //     reply_to: emailRef.current.value,
-            //     message: messageRef.current.value,
-            // });
-            // nameRef.current.value = "";
-            // emailRef.current.value = "";
-            // messageRef.current.value = "";
             await emailjs.send(serviceId, templateId, {
                 from_name: name,
                 reply_to: email,
