@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 import { BsFileEarmarkPersonFill } from "react-icons/bs";
-import logo from "../assets/SALogo.ico";
 import "../styles/Navbar.css";
 
 export default function App() {
