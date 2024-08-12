@@ -8,27 +8,27 @@
     padding-bottom: 120px;
 }
 
-.about-container::before,
+/* .about-container::before,
 .about-container::after {
     content: "";
     position: absolute;
-    width: 8%; /* Adjust the size of the borders as needed */
+    width: 8%;
     height: 15%;
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Adjust the border color and width as needed */
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 20px 0;
-}
+} */
 
-.about-container::before {
+/* .about-container::before {
     top: 21%;
     left: 5%;
-    border-width: 1px 0 0 1px; /* Top and left borders */
+    border-width: 1px 0 0 1px;
 }
 
 .about-container::after {
     bottom: 22%;
     right: 5%;
-    border-width: 0 1px 1px 0; /* Bottom and right borders */
-}
+    border-width: 0 1px 1px 0;
+} */
 
 .about-header {
     font-size: 2rem;

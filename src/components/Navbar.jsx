@@ -66,7 +66,7 @@ export default function App() {
                     <a href="mailto:uhx8bu@virginia.edu">
                         <FontAwesomeIcon icon={faEnvelope} className="mr-4 icon email-button" />
                     </a>
-                    <a href="https://drive.google.com/file/d/1R5gTjsDa1EnyuCxDBRv3Jh3ZYqKCcySk/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1-pJ8UezWWVbYxoHH5pUD5EcQ-bt3POwr/view?usp=sharing" target="_blank">
                         <BsFileEarmarkPersonFill className="icon resume-button" />
                     </a>
                 </NavbarItem>

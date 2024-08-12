@@ -68,7 +68,7 @@
 }
 
 .project-icon {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: white;
 }
 
@@ -133,6 +133,7 @@
     background-color: #f4f4f5;
     transform: rotateY(180deg);
     padding: 1rem;
+    font-size: 14px;
 }
 
 .project-title {

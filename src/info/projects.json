@@ -1,17 +1,32 @@
 {
     "projects": [
         {
-            "title": "Wisdom Widget",
-            "description": "A study companion Chrome extension coupled with a dashboard that uses AI to enhance note-taking and research. It allows you to highlight text on any website to save annotations, get explanations, and identify keywords with additional resources, all synchronized to your dashboard for efficient study management.",
-            "image": "https://i.ibb.co/SNnhYP6/wisdom.png",
+            "title": "Hoo's Spelling",
+            "description": "'Hoos Spelling' is a custom spelling game inspired by the New York Times' Spelling Bee, developed for the Cavalier Daily. Built using React with TypeScript, the game is made of two full-stack applications. Log in to the admin site to create and manage games, or access the gameplay site to enjoy new games as they are released. The game was successfully embedded into the Cavalier Daily’s website, engaging hundreds of users weekly and significantly enhancing website interaction.",
+            "image": "https://i.ibb.co/frxnLYG/Hoos-Spelling.png",
             "links": [
                 {
-                    "name": "Devpost",
-                    "url": "https://devpost.com/software/wisdom-widget"
+                    "name": "GitHub",
+                    "url": "https://github.com/simonanderson16/DiceArt"
                 },
                 {
+                    "name": "Play",
+                    "url": "https://play-hoos-spelling.netlify.app/"
+                },
+                {
+                    "name": "Admin",
+                    "url": "https://hoos-spelling-admin.netlify.app/"
+                }
+            ]
+        },
+        {
+            "title": "Spotify Social",
+            "description": "Spotify Social is a full-stack application enhancing the music experience. Leveraging the Spotify API, users can explore their own and others' top songs and artists, engage in music forums, and message others, fostering an interactive community around shared musical interests.",
+            "image": "https://i.ibb.co/RzQQnN0/spotify.png",
+            "links": [
+                {
                     "name": "GitHub",
-                    "url": "https://github.com/grantsweeney02/WisdomWidget"
+                    "url": "https://github.com/simonanderson16/SpotifyApp"
                 }
             ]
         },
@@ -31,33 +46,22 @@
             ]
         },
         {
-            "title": "Weather & News App",
-            "description": "The only tool you need to get your updates at the start of the day. Enter a location and get the current weather and forecasts leveraging OpenWeather's API. Also view the top news stories for the day using the NYT API.",
-            "image": "https://i.ibb.co/mXGYtDX/weather.png",
+            "title": "Wisdom Widget",
+            "description": "A study companion Chrome extension coupled with a dashboard that uses AI to enhance note-taking and research. It allows you to highlight text on any website to save annotations, get explanations, and identify keywords with additional resources, all synchronized to your dashboard for efficient study management.",
+            "image": "https://i.ibb.co/SNnhYP6/wisdom.png",
             "links": [
                 {
-                    "name": "GitHub",
-                    "url": "https://github.com/simonanderson16/WeatherNewsApp"
+                    "name": "Devpost",
+                    "url": "https://devpost.com/software/wisdom-widget"
                 },
                 {
-                    "name": "Visit",
-                    "url": "https://simonanderson16.github.io/WeatherNewsApp/"
-                }
-            ]
-        },
-        {
-            "title": "Spotify Social",
-            "description": "Spotify Social is a full-stack application enhancing the music experience. Leveraging the Spotify API, users can explore their own and others' top songs and artists, engage in music forums, and message others, fostering an interactive community around shared musical interests.",
-            "image": "https://i.ibb.co/RzQQnN0/spotify.png",
-            "links": [
-                {
                     "name": "GitHub",
-                    "url": "https://github.com/simonanderson16/SpotifyApp"
+                    "url": "https://github.com/grantsweeney02/WisdomWidget"
                 }
             ]
         },
         {
-            "title": "Hoos Safe",
+            "title": "Wahoo Watch",
             "description": "Built using Django, this app allows UVA students to report health and safety concerns on and around Grounds. Report anonymously or after logging in with Google, and view notes or status updates as admin users review your reports. Integrated with AWS S3 for secure and scalable file storage.",
             "image": "https://i.ibb.co/tBhqBJW/hoossafe.png",
             "links": [
@@ -87,13 +91,17 @@
             ]
         },
         {
-            "title": "Dice Art Generator",
-            "description": "A command-line Python program that transforms images into dice mosaics, replicating the original picture using dice patterns.",
-            "image": "https://i.ibb.co/1f8fCnb/dice2.png",
+            "title": "Weather & News App",
+            "description": "The only tool you need to get your updates at the start of the day. Enter a location and get the current weather and forecasts leveraging OpenWeather's API. Also view the top news stories for the day using the NYT API.",
+            "image": "https://i.ibb.co/mXGYtDX/weather.png",
             "links": [
                 {
                     "name": "GitHub",
-                    "url": "https://github.com/simonanderson16/DiceArt"
+                    "url": "https://github.com/simonanderson16/WeatherNewsApp"
+                },
+                {
+                    "name": "Visit",
+                    "url": "https://simonanderson16.github.io/WeatherNewsApp/"
                 }
             ]
         },

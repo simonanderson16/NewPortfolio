@@ -42,7 +42,7 @@ const Projects = () => {
                                                 <a href={link.url} target="_blank" rel="noreferrer" className="project-link">
                                                     {link.name === "GitHub" ? (
                                                         <FaGithub className="project-icon" />
-                                                    ) : link.name === "Visit" ? (
+                                                    ) : link.name === "Visit"  || link.name === "Play" || link.name === "Admin" ? (
                                                         <IoOpenOutline className="project-icon" />
                                                     ) : (
                                                         <SiDevpost className="project-icon" />

@@ -1,6 +1,19 @@
 {
     "experience": [
         {
+            "company": "IT Concepts, Inc.",
+            "logo": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/mrneakks6jivsrt23qdn",
+            "location": "Vienna, VA",
+            "title": "Software Engineering Intern",
+            "dates": "June 2024 - August 2024",
+            "bullets": [
+                "Collaborated with a team of 4 interns to build a semantic filtering Tableau extension, enabling government agencies to efficiently analyze and gain insights into free-form text data",
+                "Automated deployment of static websites by writing a script leveraging AWS CloudFormation, S3, and CloudFront, reducing time and labor required for deployments and updates by 80%",
+                "Refined functionality of internally used Word add-in by implementing a feature to automatically fix style issues in documents according to government agency guidelines"
+            ],
+            "tags": ["ReactJS", "JavaScript", "AWS CloudFormation", "AWS CloudFront", "AWS S3", "Tableau Extension", "Word Add-In"] 
+        },
+        {
             "company": "Forge",
             "logo": "data:image/png;base64,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",
             "location": "Charlottesville, VA",
@@ -20,10 +33,10 @@
             "title": "Teaching Assistant",
             "dates": "August 2023 - Present",
             "bullets": [
-                "Expand on in-class instruction of Software Development Essentials, teaching test-driven development, software design patterns, and 3-tier architecture to 400+ students",
-                "Conduct weekly interactive office hours and provide 1-on-1 help on online discussion forums, fostering completion of complex homework assignments in Java and increased comfort with Git and GitHub"
+                "Expand on in-class instruction of “Software Development Essentials” and “Software Engineering”, teaching test-driven development, software design patterns, 3-tier architecture, and agile methodologies to 400+ students",
+                "Conduct weekly interactive office hours and provide 1-on-1 help on online forums, fostering completion of complex homework assignments in Java, feature implementation in Django applications, and increased comfort with Git and GitHub"
             ],
-            "tags": ["Java", "Git", "GitHub", "JUnit", "Mockito", "Software Pattenrs", "Teaching"]
+            "tags": ["Java", "Git", "GitHub", "JUnit", "Mockito", "Software Patterns", "Teaching"]
         },
         {
             "company": "CommonLit",
@@ -43,7 +56,7 @@
             "logo": "https://virginia-cdn.presence.io/form-field-uploads/cea28f2b-baa9-4c47-8879-da8d675e4471/ec2b6b9b-6b1a-427d-99e8-1d0cc29ac11e.jpg?sv=2018-03-28&sr=b&sig=A2pdAPDEV7%2F6CCXHGvO7kQBNC6UBGQJeNUb57aVX2bU%3D&st=2024-05-14T15%3A38%3A01Z&se=2024-05-14T15%3A53%3A01Z&sp=r&rsct=image%2Fjpeg&rscd=attachment%3B%20filename%3Dsample1.jpg",
             "location": "Charlottesville, VA",
             "title": "Executive Board Member",
-            "dates": "May 2022 - Present",
+            "dates": "May 2022 - May 2024",
             "bullets": [
                 "Organize 4+ software projects per semester, making project-based learning more accessible to 100+ students",
                 "Facilitate progress in projects by holding weekly meetings and check-ins with project managers, offering assistance and guidance whenever necessary"
