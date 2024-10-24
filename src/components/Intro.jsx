@@ -17,7 +17,7 @@ const Intro = () => {
                     <h1 className="intro-header">Hi, I'm Simon!</h1>
                     <p>I'm a CS Student at UVA passionate about full-stack development, learning new skills, and helping others through my work.</p>
                     <p>
-                        Currently, I'm a Software Engineering Intern at <strong>IT Concepts</strong>.
+                        Currently, I'm Director of Engineering at <strong>Forge</strong> and a Teaching Assistant for Software Engineering at <strong>The University of Virginia</strong>.
                     </p>
                 </div>
             </div>
